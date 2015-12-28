@@ -17,3 +17,7 @@ pm_to_blib
 RemoteSystemsTempFiles/
 Servers/
 target/
+.factorypath
+.project
+.classpath
+.springBeans
