@@ -2,7 +2,7 @@ package com.github.shince.webtemplate.jpa.services;
 
 import java.util.List;
 
-import com.github.shince.webtemplate.entities.User;
+import com.github.shince.entities.User;
 
 public interface UserService {
 	User findOne(Long id);

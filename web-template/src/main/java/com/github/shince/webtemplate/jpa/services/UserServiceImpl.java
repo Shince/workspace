@@ -6,8 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.github.shince.webtemplate.entities.User;
-import com.github.shince.webtemplate.jpa.repository.UserRepository;
+import com.github.shince.entities.User;
+import com.github.shince.jpa.repository.UserRepository;
 
 @Transactional
 @Service("userService")

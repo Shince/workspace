@@ -6,6 +6,6 @@
 <div style="margin-top: 30%;">
 
 	<button type="button" class="btn btn-lg btn-primary"
-		style="padding: 60px 100px;"><c:if test="${user == null}">Word!</c:if><c:otherwise>${user.name}</c:otherwise></button>
+		style="padding: 60px 100px;"><c:if test="${user == null}">Word!</c:if>${user.name}!</button>
 
 </div>

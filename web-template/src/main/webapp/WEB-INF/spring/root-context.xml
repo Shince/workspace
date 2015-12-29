@@ -14,7 +14,7 @@
 
 	<!-- Root Context: defines shared resources visible to all other web components -->
 	 
-	<jpa:repositories base-package="com.github.shince.webtemplate.jpa.repository" />
+	<jpa:repositories base-package="com.github.shince.jpa.repository" />
  	
  	
 	<!-- JPA related -->
@@ -36,7 +36,7 @@
 		<beans:property name="dataSource" ref="dataSource" />
 		<!--  <beans:property name="persistenceUnitName" value="ep-persistence-unit" /> 
 		<beans:property name="persistenceProvider" ref="persistenceProvider" />   -->
-		<property name="packagesToScan" value="com.github.shince.webtemplate.entities" />
+		<property name="packagesToScan" value="com.github.shince.entities" />
 		<beans:property name="jpaVendorAdapter">
 			<beans:bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter">
 				<!-- <property name="database" value="HSQL" /> -->

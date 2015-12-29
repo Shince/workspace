@@ -1,4 +1,4 @@
-package com.github.shince.webtemplate.entities;
+package com.github.shince.entities;
 
 import java.io.Serializable;
 

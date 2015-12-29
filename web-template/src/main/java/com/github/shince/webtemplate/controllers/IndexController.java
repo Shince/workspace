@@ -14,7 +14,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import com.github.shince.webtemplate.entities.User;
+import com.github.shince.entities.User;
 import com.github.shince.webtemplate.jpa.services.UserService;
 
 
@@ -36,7 +36,6 @@ public class IndexController {
 		logger.info("###### into the IndexController ######");
 		User user = userService.findOne(new Long(1));
 		model.addAttribute("user", user);
-		System.out.printf("============="+user.getName());
 		return "index";
 	}
 
